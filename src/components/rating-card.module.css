@@ -1,0 +1,84 @@
+.card {
+  background-color: #202630;
+  width: 350px;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.star {
+  background-color: #393f47;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.text h1 {
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.description {
+  color: #8b919d;
+  font-size: 13px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratingButton {
+  background-color: #393f47;
+  border: none;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ratingButton:hover {
+  background-color: #7c8798;
+  color: #fff;
+}
+
+.ratingButton:focus {
+  background-color: #f57414;
+}
+
+.submit {
+  background-color: #f57414;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #f57414;
+}
+
+.pill {
+  background-color: #393f47;
+  color: #f57414;
+  font-size: 15px;
+  padding: 4px 20px;
+  border-radius: 20px;
+}
+
+.textCenter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
